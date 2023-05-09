@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using Growwise1.Models;
 using Growwise1.Models.ManageViewModels;
 using Growwise1.Services;
+using Growwise.Data.Models;
 
 namespace Growwise1.Controllers
 {
