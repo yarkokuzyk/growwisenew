@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Growwise1.Services;
 using Growwise.Data;
 using Growwise.Data.Models;
+using Growwise.Service;
 
 namespace Growwise1
 {
@@ -31,7 +32,7 @@ namespace Growwise1
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
-
+            services.AddScoped<IForum, ForumService>();
             services.AddMvc();
         }
 
