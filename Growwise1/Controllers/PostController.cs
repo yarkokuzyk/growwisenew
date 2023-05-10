@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Growwise.Data;
+using Growwise.Data.Models;
+using Growwise1.Models.Post;
+using Growwise1.Models.Reply;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Growwise1.Controllers
@@ -21,7 +24,37 @@ namespace Growwise1.Controllers
         {
             var post = _postService.GetById(id);
 
-            return View();
+            var replies = BuildPostReplies(post.Replies);
+
+            var model = new PostIndexModel
+            {
+                Id = post.Id,
+                Title = post.Title,
+                AuthorId = post.User.Id,
+                AuthorName = post.User.UserName,
+                AuthorImageUrl = post.User.ProfileImageUrl,
+                AuthorRating = post.User.Rating,
+                Created = post.Created,
+                PostContent = post.Content,
+                Replies = replies
+            };
+
+            return View(model);
+        }
+
+        private IEnumerable<PostReplyModel> BuildPostReplies(IEnumerable<PostReply> replies)
+        {
+            return replies.Select(reply => new PostReplyModel
+            {
+                Id = reply.ID,
+                AuthorName = reply.User.UserName,
+                AuthorId = reply.User.Id,
+                AuthorImageUrl = reply.User.ProfileImageUrl,
+                AuthorRating = reply.User.Rating,
+                Created = reply.Created,
+                ReplyContent = reply.Content
+            });
+                
         }
     }
 }
