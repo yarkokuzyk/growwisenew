@@ -33,6 +33,8 @@ namespace Growwise1.Controllers
             return View(model);
         }
 
+    
+
         public IActionResult Topic(int id)
         {
             var forum = _forumService.GetById(id);
