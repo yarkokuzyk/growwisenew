@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Growwise1.Models.Post;
+
+namespace Growwise1.Models.Forum
+{
+    public class ForumTopicModel
+    {
+        public ForumListingModel Forum { get; set; }
+        public IEnumerable<PostListingModel> Posts { get; set; }
+
+    }
+}
