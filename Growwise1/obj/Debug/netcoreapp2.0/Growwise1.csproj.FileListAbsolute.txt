@@ -14,4 +14,9 @@ C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise
 C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.pdb
 C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\Growwise.Service.dll
 C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\Growwise.Service.pdb
-C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.csproj.AssemblyReference.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.genruntimeconfig.cache

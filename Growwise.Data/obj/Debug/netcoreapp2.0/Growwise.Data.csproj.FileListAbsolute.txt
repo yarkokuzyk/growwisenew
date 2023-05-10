@@ -6,3 +6,5 @@ C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.0\Grow
 C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.0\Growwise.Data.AssemblyInfo.cs
 C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.0\Growwise.Data.dll
 C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.0\Growwise.Data.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.0\Growwise.Data.csproj.AssemblyReference.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.0\Growwise.Data.GeneratedMSBuildEditorConfig.editorconfig
