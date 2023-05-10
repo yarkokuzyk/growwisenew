@@ -19,9 +19,10 @@ namespace Growwise.Service
         
         }    
 
-        public Task Add(Post post)
+        public async Task Add(Post post)
         {
-            throw new NotImplementedException();
+            _context.Add(post);
+            await _context.SaveChangesAsync();
         }
 
         public Task Delete(int id)
@@ -42,12 +43,11 @@ namespace Growwise.Service
         public Post GetById(int id)
         {
             return _context.Posts.Where(post => post.Id == id)
-                 .Include(post => post.User)
-                 .Include(post => post.Replies).ThenInclude(reply => reply.User)
-                 .Include(post => post.Forum)
-                 .First();
-
-
+                .Include(post => post.User)
+                .Include(post => post.Replies)
+                .ThenInclude(reply => reply.User)
+                .Include(post => post.Forum)
+                .FirstOrDefault();
 
         }
 
