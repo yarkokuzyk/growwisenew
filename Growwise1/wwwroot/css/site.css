@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
+    backdrop-position: center;
 }
 
 .navbar {
@@ -188,6 +190,7 @@
     width: 40px;
     background-color: #ddd;
     border: 1px solid #555;
+    background-size:100%;
 }
 
 .forumPostCount {
