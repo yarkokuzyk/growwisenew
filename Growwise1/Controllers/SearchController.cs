@@ -2,7 +2,7 @@
 using Growwise.Data.Models;
 using Growwise1.Models.Forum;
 using Growwise1.Models.Post;
-using Growwise1.Views.Search;
+using Growwise1.Models.Search;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace Growwise1.Controllers
     {
         private readonly IPost _postService;
 
-        protected SearchController(IPost postService)
+        public SearchController(IPost postService)
         {
             _postService = postService;
         }
