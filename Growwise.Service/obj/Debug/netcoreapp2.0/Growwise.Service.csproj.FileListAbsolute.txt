@@ -9,5 +9,4 @@ C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\G
 C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\Growwise.Service.csproj.CopyComplete
 C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\Growwise.Service.dll
 C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\Growwise.Service.pdb
-C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\Growwise.Service.csproj.AssemblyReference.cache
-C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\Growwise.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Debug\netcoreapp2.0\Growwise.Service.csprojAssemblyReference.cache

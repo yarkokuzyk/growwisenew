@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Growwise1</title>
+    <title>@ViewData["Title"] - LambdaForums</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -18,13 +18,9 @@
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     </environment>
-  
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -34,22 +30,30 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-controller="Forum" asp-action="Index">Forums</a></li>
+                    <li>
+                        <a asp-controller="Forum" asp-action="Index">Forums</a>
+                    </li>
                     @if (SignInManager.IsSignedIn(User))
                     {
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">
+                                Settings
+                                <span class="caret"></span>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li role="separator" class="divider"></li>
                                 <li class="dropdown-header">Profile</li>
-                                <li><a asp-controller="Profie" asp-action="Detail">My Profile</a></li>
+                                <li>
+                                    <a asp-controller="Profile" asp-action="Detail">My Profile</a>
+                                </li>
                                 @if (User.IsInRole("Admin"))
                                 {
-                                    <li role"separator" class="divider"></li>
+                                    <li role="separator" class="divider"></li>
                                     <li class="dropdown-header">Admin</li>
-                                    <li><a asp-controller="Forum" asp-action="Create">Create Forum</a></li>
-                                    <li><a asp-controller="Profile" asp-action="Index">View Users</a></li>
-
+                                    <li>
+                                        <a asp-controller="Forum" asp-action="Create">Create Forum</a>
+                                        <a asp-controller="Profile" asp-action="Index">View Users</a>
+                                    </li>
                                 }
                             </ul>
                         </li>
@@ -58,30 +62,30 @@
                 @if (!SignInManager.IsSignedIn(User))
                 {
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a asp-controller="Account" asp-action="Login">Sign In</a></li>
-                        <li class="active"><a asp-controller="Account" asp-action="Register">Register</a></li>
+                        <li>
+                            <a asp-controller="Account" asp-action="Login">Sign In</a>
+                        </li>
+                        <li class="active">
+                            <a asp-controller="Account" asp-action="Register">Register</a>
+                        </li>
                     </ul>
                 }
                 @if (SignInManager.IsSignedIn(User))
                 {
-                    <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar"></form>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>Hello, @UserManager.GetUserName(User)</li>
-                        <li><a asp-controller="Account" asp-action="Logout">Sign out</a></li>
-                    </ul>
+                    <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>Hello, @UserManager.GetUserName(User)</li>
+                            <li>
+                                <a asp-controller="Account" asp-action="Logout">Sign Out</a>
+                            </li>
+                        </ul>
+                    </form>
                 }
-
-
-               
             </div>
         </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2023 - Growwise1</p>
-        </footer>
     </div>
 
     <environment include="Development">
