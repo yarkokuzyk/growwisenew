@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Growwise1.Views.Search
+namespace Growwise1.Models.Search
 {
     public class SearchResultModel
     {
