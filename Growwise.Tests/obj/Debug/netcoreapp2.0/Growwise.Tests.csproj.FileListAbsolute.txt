@@ -1,0 +1,16 @@
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.AssemblyInfoInputs.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.AssemblyInfo.cs
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Tests.deps.json
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Tests.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Tests.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Data.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Service.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise1.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Data.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise.Service.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\bin\Debug\netcoreapp2.0\Growwise1.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.csproj.CopyComplete
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Tests\obj\Debug\netcoreapp2.0\Growwise.Tests.pdb
