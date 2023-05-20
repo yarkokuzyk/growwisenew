@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "AzureStorageAccount": "DefaultEndpointsProtocol=https;AccountName=growwisedeveloperyarko;AccountKey=6Jv/mUbpEVryNiErJ8fTa4oHuLSshjUJyEiA/0Ht2dz3p9W13KxzJ431PHTcavVKs7DeNkSl0Zx3+AStGpXnIw==;EndpointSuffix=core.windows.net"
+  }
+
+}

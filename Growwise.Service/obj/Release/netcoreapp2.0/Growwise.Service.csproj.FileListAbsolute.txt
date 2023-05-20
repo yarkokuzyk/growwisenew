@@ -1,0 +1,12 @@
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\bin\Release\netcoreapp2.0\Growwise.Service.deps.json
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\bin\Release\netcoreapp2.0\Growwise.Service.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\bin\Release\netcoreapp2.0\Growwise.Service.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\bin\Release\netcoreapp2.0\Growwise.Data.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\bin\Release\netcoreapp2.0\Growwise.Data.pdb
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.AssemblyInfoInputs.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.AssemblyInfo.cs
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.csproj.CopyComplete
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.dll
+C:\Users\slavi\source\repos\Growwise1\Growwise.Service\obj\Release\netcoreapp2.0\Growwise.Service.pdb

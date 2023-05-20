@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P3eRhiO6AABVZMjaDtfl7iQj5ROeJqeiT6UIcYT9czkUAQEe2DlgkIeHAf/kap7fA/q4TMewb2OOev8SjgrJBw==",
+  "dgSpecHash": "bjpty5M+HKoe7KnIAB5oyug4/kmVXn+mNtgQDfDvzbrlVxjhY6UNE79l2fBQv9V95zYLa/JhN1tmQ/+ynV35HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\slavi\\source\\repos\\Growwise1\\Growwise1\\Growwise1.csproj",
   "expectedPackageFiles": [
@@ -313,7 +313,7 @@
     "C:\\Users\\slavi\\.nuget\\packages\\system.xml.xmlserializer\\4.0.11\\system.xml.xmlserializer.4.0.11.nupkg.sha512",
     "C:\\Users\\slavi\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\slavi\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\slavi\\.nuget\\packages\\windowsazure.storage\\8.1.4\\windowsazure.storage.8.1.4.nupkg.sha512"
+    "C:\\Users\\slavi\\.nuget\\packages\\windowsazure.storage\\8.4.0\\windowsazure.storage.8.4.0.nupkg.sha512"
   ],
   "logs": []
 }
