@@ -58,7 +58,7 @@ namespace Growwise1.Controllers
             var connectionString = _configuration.GetConnectionString("AzureStorageAccount");
 
             // Get blob container
-            var container = _uploadService.GetBlobContainer(connectionString);
+            var container = _uploadService.GetBlobContainer(connectionString,"profile-images");
 
             // Parse the Content Disposition response header
             var contentDisposition = ContentDispositionHeaderValue.Parse(file.ContentDisposition);
