@@ -1,38 +1,42 @@
-﻿@using Microsoft.AspNetCore.Identity
-@model Growwise1.Models.ApplicationUser.ProfileModel
-@inject  UserManager<Growwise.Data.Models.ApplicationUser> UserManager
+﻿@model  Growwise1.Models.ApplicationUser.ProfileListModel
 
 <div class="container body-content">
     <div class="row sectionHeader">
-        <div class="sectionHeading">
-            User Profile
-        </div>
+        <div class="sectionHeading"></div>
     </div>
-    <div class="row userProfile">
-        <div class="col-md-4">
-            <div id="userProfileImage" style="background-image: url(@Model.ProfileImageUrl)"></div>
-            @if (User.Identity.Name == Model.UserName)
-            {
-                <form method="post" enctype="multipart/form-data" asp-controller="Profile" asp-action="UploadProfileImage">
-
-                    <div id="upload">
-                        <label class="btn btn-default btn-file">
-                            Browser <input type="file" name="file" style="display: none" />
-                        </label>
-                        <button type="submit" id="btn-profuile" class="btn btn-default">Submit</button>
-                    </div>
-                </form>
-            }
-        </div>
-    </div>
-    <div class="col-md-8">
-        <span id="userName">@Model.UserName</span>
-        @if (Model.IsAdmin)
-        {
-            <span class="isAdmin">Admin</span>
-        }
-        <span id="userRating">Current Rating: @Model.UserRating</span>
-        <span id="userEmailLabel">Email: @Model.Email</span>
-        <span id="userCreatedLabel">Member Since: @Model.MemberSince</span>
+    <div class="row" id="forumIndexContent">
+        <table class="table table-hover" id="userIndexTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Member Since</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var profile in Model.Profiles)
+                {
+                    <tr class="userRow">
+                        <td>
+                            <div class="userProfilePic" style="background-image: url(@profile.ProfileImageUrl)"></div>
+                        </td>
+                        <td>
+                            @profile.UserName
+                        </td>
+                        <td>
+                            @profile.Email
+                        </td>
+                        <td>
+                            @profile.MemberSince
+                        </td>
+                        <td>
+                            @profile.UserRating
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
 </div>

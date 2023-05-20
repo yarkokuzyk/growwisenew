@@ -1,10 +1,11 @@
 ﻿@model Growwise1.Models.Home.HomeIndexModel
 
+
 <div class="container body-content">
     <div class="row frontPageSplash">
         <div class="col-md-6 frontPageLearn">
-            <div class="frontPageHeading">Learn, Collaborate, Share knowledge</div>
-            <p class='frontPageSubHeading'>Growwise forum is the coolest in yezupil</p>
+            <div class="frontPageHeading">Learn, Collaborate & Share Knowledge</div>
+            <p class="frontPageSubHeading">Lambda Forums is the World's fastest growing coding forum</p>
             <div>
                 <form asp-controller="Search" asp-action="Search" method="post">
                     <input asp-for="SearchQuery" type="text" class="homeSearch" placeholder="Search..." />
@@ -14,7 +15,7 @@
         <div class="col-md-6"></div>
     </div>
     <div class="row frontPageContent">
-        <h3 id="latestPosts">Latest posts</h3>
+        <h3 id="latestPosts">Latest Posts</h3>
         <table class="table table-hover" id="latestPostsTable">
             <tbody>
                 @foreach (var post in Model.LatestPosts)
@@ -27,7 +28,7 @@
                                     @post.Title
                                 </a>
                             </div>
-                            <div class="postSubtitle">
+                            <div class="postSubTitle">
                                 @if (post.RepliesCount == 1)
                                 {
                                     <span>@post.RepliesCount Reply</span>
@@ -41,9 +42,7 @@
                                     <span>@post.RepliesCount Replies</span>
                                 }
                                 <span class="postUser">
-                                    <a asp-controller="Profile" asp-action="Detail" asp-route-id="@post.AuthorId">
-                                        @post.AuthorName
-                                    </a>
+                                    <a asp-controller="Profile" asp-action="Detail" asp-route-id="@post.AuthorId">@post.AuthorName</a>
                                 </span>
                             </div>
                         </td>

@@ -6,11 +6,13 @@ using Growwise.Data;
 using Growwise.Data.Models;
 using Growwise1.Models.Post;
 using Growwise1.Models.Reply;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Growwise1.Controllers
 {
+    [Authorize]
     public class PostController : Controller
     {
 
@@ -54,7 +56,7 @@ namespace Growwise1.Controllers
             return View(model);
         }
 
-    
+        [Authorize]
         public IActionResult Create(int id)
         {
             // Note id is Forum.Id
@@ -71,6 +73,7 @@ namespace Growwise1.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> AddPost(NewPostModel model)
         {
             var userId = _userManager.GetUserId(User);

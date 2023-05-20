@@ -351,6 +351,7 @@
     padding-bottom: 60px;
     background-color: white;
 }
+
 .noPosts {
     text-align: center;
     padding-top: 30px;
@@ -419,6 +420,7 @@
     padding: 8px;
 }
 
+
 .replyContentContainer, .replyAuthorContainer {
     display: table-cell;
     padding: 12px;
@@ -450,6 +452,7 @@
     border-radius: 1px;
     width: 30px;
 }
+
 
 
 /* Wrapping element */
