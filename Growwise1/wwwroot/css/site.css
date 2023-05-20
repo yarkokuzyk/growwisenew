@@ -317,7 +317,7 @@
     font-family: 'Roboto Mono';
     font-size: 0.8em;
 }
-}
+
 
 .forumDescription {
     color: #555;
@@ -351,17 +351,104 @@
     padding-bottom: 60px;
     background-color: white;
 }
-
 .noPosts {
     text-align: center;
     padding-top: 30px;
     font-family: 'Roboto Mono';
 }
-}
 
 .createPostSection {
     background-color: #fff;
     padding: 24px;
+}
+
+.authorBlock {
+    padding: 18px;
+    border: 1px dashed #00afcf;
+    margin-bottom: 8px;
+}
+
+.noBorder {
+    border: none;
+}
+
+/*User Profiles*/
+.userProfile {
+    padding: 32px 0 64px 24px;
+    background-color: #fff;
+}
+
+#userProfileImage {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    background-size: 100%;
+}
+
+#userEmailLabel, #userBioLabel, #userCreatedLabel, #userRating, #userActiveLabel {
+    display: block;
+    color: #444;
+    font-family: 'Roboto';
+    padding-top: 3px;
+}
+
+#userName {
+    display: block;
+    color: #2569d5;
+    font-family: 'Roboto';
+    font-size: 1.7em;
+}
+
+.userProfilePic {
+    height: 140px;
+    width: 140px;
+    background-size: 100%;
+}
+
+/*Replies*/
+.replyContent {
+    display: table;
+    background-color: #fff;
+    border-bottom: 1px solid #aaa;
+    width: inherit;
+}
+
+#postReplyRow {
+    background-color: #3f51b5;
+    padding: 8px;
+}
+
+.replyContentContainer, .replyAuthorContainer {
+    display: table-cell;
+    padding: 12px;
+}
+
+.isAdmin {
+    display: inline-block;
+    padding: 3px;
+    background-color: #ffeb3b;
+    color: #000;
+    font-family: 'Roboto Mono'
+}
+
+.smaller {
+    font-size: 0.8em;
+}
+
+#originalPost {
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.hasRecentPost {
+    padding: 2px;
+    background-color: #fe552f;
+    color: #fff;
+    text-align: center;
+    border-radius: 1px;
+    width: 30px;
 }
 
 

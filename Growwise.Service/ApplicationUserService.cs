@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Growwise.Service
 {
-    class ApplicationUserService : IApplicationUser
+    public class ApplicationUserService : IApplicationUser
     {
 
         private readonly ApplicationDbContext _context;

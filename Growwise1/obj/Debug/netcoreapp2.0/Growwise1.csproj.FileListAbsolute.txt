@@ -1,5 +1,4 @@
 C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.csproj.CoreCompileInputs.cache
-C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.AssemblyInfoInputs.cache
 C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.AssemblyInfo.cs
 C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\Growwise1.deps.json
@@ -15,3 +14,4 @@ C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise
 C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\Growwise.Service.dll
 C:\Users\slavi\source\repos\Growwise1\Growwise1\bin\Debug\netcoreapp2.0\Growwise.Service.pdb
 C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\Growwise1.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\Growwise1\Growwise1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
