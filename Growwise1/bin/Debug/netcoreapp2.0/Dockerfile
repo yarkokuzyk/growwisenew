@@ -25,3 +25,4 @@ COPY --from=build /app/publish .
 
 # Запускаємо додаток
 ENTRYPOINT ["dotnet", "Growwise1.dll"]
+hi
