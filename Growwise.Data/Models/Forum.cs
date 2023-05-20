@@ -10,7 +10,7 @@ namespace Growwise.Data.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime Created { get; set; }
-        public string ImageURL { get; set; }
+        public string ImageUrl { get; set; }
 
         public IEnumerable<Post> Posts { get; set; }
 

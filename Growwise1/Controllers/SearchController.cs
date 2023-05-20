@@ -53,7 +53,7 @@ namespace Growwise1.Controllers
             return new ForumListingModel
             {
                 Id = forum.Id,
-                ImageUrl = forum.ImageURL,
+                ImageUrl = forum.ImageUrl,
                 Name = forum.Title,
                 Description = forum.Description
             };

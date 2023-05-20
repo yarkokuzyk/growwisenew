@@ -12,7 +12,8 @@ namespace Growwise.Data
         IEnumerable<ApplicationUser> GetAll();
 
         Task SetProfileImageAsync(string id, Uri uri);
-        Task IncrementRating(string id, Type type);
+        Task UpdateUserRating(string id, Type type);
+
 
     }
 }

@@ -59,7 +59,7 @@ namespace Growwise1.Controllers
             {
                 Id = forum.Id,
                 Name = forum.Title,
-                ImageUrl = forum.ImageURL
+                ImageUrl = forum.ImageUrl
             };
         }
 
