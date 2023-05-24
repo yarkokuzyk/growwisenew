@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LambdaForums.Controllers
+namespace Growwise.Controllers
 {
     [Authorize]
     public class ReplyController : Controller
@@ -78,3 +78,4 @@ namespace LambdaForums.Controllers
         }
     }
 }
+

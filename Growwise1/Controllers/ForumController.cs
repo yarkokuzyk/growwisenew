@@ -50,7 +50,9 @@ namespace Growwise1.Controllers
             return View(model);
         }
 
-    
+
+
+
 
         public IActionResult Topic(int id, string searchQuery)
         {
@@ -159,3 +161,7 @@ namespace Growwise1.Controllers
 
         
 }
+
+
+
+

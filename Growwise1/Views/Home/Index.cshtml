@@ -4,18 +4,18 @@
 <div class="container body-content">
     <div class="row frontPageSplash">
         <div class="col-md-6 frontPageLearn">
-            <div class="frontPageHeading">Learn, Collaborate & Share Knowledge</div>
-            <p class="frontPageSubHeading">Lambda Forums is the World's fastest growing coding forum</p>
+            <div class="frontPageHeading">Вивчай, ділися та спілкуйся</div>
+            <p class="frontPageSubHeading">Форуми Growwise дбатимуть про твій сад</p>
             <div>
                 <form asp-controller="Search" asp-action="Search" method="post">
-                    <input asp-for="SearchQuery" type="text" class="homeSearch" placeholder="Search..." />
+                    <input asp-for="SearchQuery" type="text" class="homeSearch" placeholder="Шукати..." />
                 </form>
             </div>
         </div>
         <div class="col-md-6"></div>
     </div>
     <div class="row frontPageContent">
-        <h3 id="latestPosts">Latest Posts</h3>
+        <h3 id="latestPosts">Останні обговорення</h3>
         <table class="table table-hover" id="latestPostsTable">
             <tbody>
                 @foreach (var post in Model.LatestPosts)
