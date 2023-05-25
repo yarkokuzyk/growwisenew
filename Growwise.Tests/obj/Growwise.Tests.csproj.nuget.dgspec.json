@@ -261,14 +261,7 @@
         "frameworks": {
           "netcoreapp2.0": {
             "targetAlias": "netcoreapp2.0",
-            "projectReferences": {
-              "D:\\ntcn\\Growwise1\\Growwise.Data\\Growwise.Data.csproj": {
-                "projectPath": "D:\\ntcn\\Growwise1\\Growwise.Data\\Growwise.Data.csproj"
-              },
-              "D:\\ntcn\\Growwise1\\Growwise.Service\\Growwise.Service.csproj": {
-                "projectPath": "D:\\ntcn\\Growwise1\\Growwise.Service\\Growwise.Service.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

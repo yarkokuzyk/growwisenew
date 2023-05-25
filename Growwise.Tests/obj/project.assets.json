@@ -5906,8 +5906,6 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "AWSSDK.Core": "3.7.106.39",
-          "Growwise.Data": "1.0.0",
-          "Growwise.Service": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.9",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.4.10",
           "WindowsAzure.Storage": "8.4.0"

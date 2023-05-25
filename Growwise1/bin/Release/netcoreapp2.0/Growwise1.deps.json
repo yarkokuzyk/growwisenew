@@ -6,7 +6,7 @@
   "compilationOptions": {
     "defines": [
       "TRACE",
-      "DEBUG",
+      "RELEASE",
       "NETCOREAPP",
       "NETCOREAPP2_0",
       "NETCOREAPP1_0_OR_GREATER",
@@ -17,7 +17,7 @@
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
-    "optimize": false,
+    "optimize": true,
     "keyFile": "",
     "emitEntryPoint": true,
     "xmlDoc": false,
@@ -28,8 +28,6 @@
       "Growwise1/1.0.0": {
         "dependencies": {
           "AWSSDK.Core": "3.7.106.39",
-          "Growwise.Data": "1.0.0",
-          "Growwise.Service": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.3",
           "Microsoft.NETCore.App": "2.0.0",
@@ -4619,18 +4617,6 @@
           "Microsoft.NETCore.Platforms": "2.0.0"
         },
         "compileOnly": true
-      },
-      "Growwise.Data/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.All": "2.0.9"
-        },
-        "compileOnly": true
-      },
-      "Growwise.Service/1.0.0": {
-        "dependencies": {
-          "Growwise.Data": "1.0.0"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -6830,16 +6816,6 @@
       "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
-    },
-    "Growwise.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Growwise.Service/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

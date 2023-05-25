@@ -23,11 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Growwise.Data\Growwise.Data.csproj" />
-    <ProjectReference Include="..\Growwise.Service\Growwise.Service.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="wwwroot\images\Forum\" />
     <Folder Include="wwwroot\images\users\" />
   </ItemGroup>
