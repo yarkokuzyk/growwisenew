@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t47PJAC/EiPp70jMEsBiFR046Wl7nSpYUp4irm6czDg65QRBdepQV6gDi86qsLyDlrRU26Gm8byOYSxjFAhsnA==",
+  "dgSpecHash": "r/spvjpfoWXMXTXY+9X26wHsRVSLsU05faXz0erCuiVClWCq9NhgJIs3eCqon5XCshdGC+OieRL1qwATAQA5vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\slavi\\source\\repos\\Growwise1\\Growwise1\\Growwise1.csproj",
+  "projectFilePath": "D:\\ntcn\\Growwise1\\Growwise1\\Growwise1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slavi\\.nuget\\packages\\awssdk.core\\3.7.106.39\\awssdk.core.3.7.106.39.nupkg.sha512",
     "C:\\Users\\slavi\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",

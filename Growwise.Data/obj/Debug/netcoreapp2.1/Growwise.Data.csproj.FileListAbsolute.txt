@@ -1,9 +1,0 @@
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\bin\Debug\netcoreapp2.1\Growwise.Data.deps.json
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\bin\Debug\netcoreapp2.1\Growwise.Data.dll
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.1\Growwise.Data.csprojAssemblyReference.cache
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.1\Growwise.Data.csproj.CoreCompileInputs.cache
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.1\Growwise.Data.AssemblyInfoInputs.cache
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.1\Growwise.Data.AssemblyInfo.cs
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\bin\Debug\netcoreapp2.1\Growwise.Data.pdb
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.1\Growwise.Data.dll
-C:\Users\slavi\source\repos\Growwise1\Growwise.Data\obj\Debug\netcoreapp2.1\Growwise.Data.pdb

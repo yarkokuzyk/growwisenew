@@ -4445,28 +4445,6 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Growwise.Data/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.All": "2.0.9"
-        },
-        "runtime": {
-          "Growwise.Data.dll": {}
-        },
-        "compile": {
-          "Growwise.Data.dll": {}
-        }
-      },
-      "Growwise.Service/1.0.0": {
-        "dependencies": {
-          "Growwise.Data": "1.0.0"
-        },
-        "runtime": {
-          "Growwise.Service.dll": {}
-        },
-        "compile": {
-          "Growwise.Service.dll": {}
-        }
-      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -4639,6 +4617,18 @@
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compileOnly": true
+      },
+      "Growwise.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.All": "2.0.9"
+        },
+        "compileOnly": true
+      },
+      "Growwise.Service/1.0.0": {
+        "dependencies": {
+          "Growwise.Data": "1.0.0"
         },
         "compileOnly": true
       }
@@ -6799,16 +6789,6 @@
       "path": "windowsazure.storage/8.4.0",
       "hashPath": "windowsazure.storage.8.4.0.nupkg.sha512"
     },
-    "Growwise.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Growwise.Service/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -6850,6 +6830,16 @@
       "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "Growwise.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Growwise.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
