@@ -5875,32 +5875,6 @@
           }
         }
       },
-      "Growwise.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.All": "2.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Growwise.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Growwise.Data.dll": {}
-        }
-      },
-      "Growwise.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Growwise.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Growwise.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Growwise.Service.dll": {}
-        }
-      },
       "Growwise1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -14558,16 +14532,6 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "Growwise.Data/1.0.0": {
-      "type": "project",
-      "path": "../Growwise.Data/Growwise.Data.csproj",
-      "msbuildProject": "../Growwise.Data/Growwise.Data.csproj"
-    },
-    "Growwise.Service/1.0.0": {
-      "type": "project",
-      "path": "../Growwise.Service/Growwise.Service.csproj",
-      "msbuildProject": "../Growwise.Service/Growwise.Service.csproj"
-    },
     "Growwise1/1.0.0": {
       "type": "project",
       "path": "../Growwise1/Growwise1.csproj",
@@ -14576,9 +14540,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
+      "D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
       "FluentAssertions >= 6.11.0",
-      "Growwise.Data >= 1.0.0",
-      "Growwise.Service >= 1.0.0",
       "Growwise1 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -14594,11 +14558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ntcn\\Growwise1\\Growwise.Tests\\Growwise.Tests.csproj",
+      "projectUniqueName": "D:\\folder\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
       "projectName": "Growwise.Tests",
-      "projectPath": "D:\\ntcn\\Growwise1\\Growwise.Tests\\Growwise.Tests.csproj",
+      "projectPath": "D:\\folder\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
       "packagesPath": "C:\\Users\\slavi\\.nuget\\packages\\",
-      "outputPath": "D:\\ntcn\\Growwise1\\Growwise.Tests\\obj\\",
+      "outputPath": "D:\\folder\\growwisenew\\Growwise.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -14620,14 +14584,14 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "D:\\ntcn\\Growwise1\\Growwise.Data\\Growwise.Data.csproj": {
-              "projectPath": "D:\\ntcn\\Growwise1\\Growwise.Data\\Growwise.Data.csproj"
+            "D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj": {
+              "projectPath": "D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj"
             },
-            "D:\\ntcn\\Growwise1\\Growwise.Service\\Growwise.Service.csproj": {
-              "projectPath": "D:\\ntcn\\Growwise1\\Growwise.Service\\Growwise.Service.csproj"
+            "D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj": {
+              "projectPath": "D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj"
             },
-            "D:\\ntcn\\Growwise1\\Growwise1\\Growwise1.csproj": {
-              "projectPath": "D:\\ntcn\\Growwise1\\Growwise1\\Growwise1.csproj"
+            "D:\\folder\\growwisenew\\Growwise1\\Growwise1.csproj": {
+              "projectPath": "D:\\folder\\growwisenew\\Growwise1\\Growwise1.csproj"
             }
           }
         }
@@ -14681,6 +14645,24 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

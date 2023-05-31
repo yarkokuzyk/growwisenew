@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fBKYV8IQ1UNkr9UnCH+rg0eKomdH/W5ARi5CkYQGRMmO6u9mEG3eH62ZO3Bmo/xZ65W0XJRa1mt5W15fBHyMRA==",
-  "success": true,
-  "projectFilePath": "D:\\ntcn\\Growwise1\\Growwise.Tests\\Growwise.Tests.csproj",
+  "dgSpecHash": "4pefk5Z4L74viw6v2rcOtpbu9+Dik6wA7mahN6c4YDGoaDrHpuyhKyCbS9offOXfIp6gdYt37uNBm7l7znhfFw==",
+  "success": false,
+  "projectFilePath": "D:\\folder\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slavi\\.nuget\\packages\\awssdk.core\\3.7.106.39\\awssdk.core.3.7.106.39.nupkg.sha512",
     "C:\\Users\\slavi\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
@@ -305,6 +305,24 @@
     "C:\\Users\\slavi\\.nuget\\packages\\windowsazure.storage\\8.4.0\\windowsazure.storage.8.4.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
