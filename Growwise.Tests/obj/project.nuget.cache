@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4pefk5Z4L74viw6v2rcOtpbu9+Dik6wA7mahN6c4YDGoaDrHpuyhKyCbS9offOXfIp6gdYt37uNBm7l7znhfFw==",
+  "dgSpecHash": "srVl0IYe13p5sMPD9uNnFRVidB6GaNN9mrtsFPH2OgPve6xh941/6O4a2aTBPezsS9a+eSeeRtlC1YkoAAHHqw==",
   "success": false,
-  "projectFilePath": "D:\\folder\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
+  "projectFilePath": "D:\\Нова папка (13)\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slavi\\.nuget\\packages\\awssdk.core\\3.7.106.39\\awssdk.core.3.7.106.39.nupkg.sha512",
     "C:\\Users\\slavi\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
@@ -308,8 +308,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\folder\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
+      "message": "Unable to find project 'D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
       ]
@@ -317,8 +317,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\folder\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
+      "message": "Unable to find project 'D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
       ]
