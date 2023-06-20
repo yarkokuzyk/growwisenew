@@ -14540,8 +14540,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
-      "D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
+      "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
+      "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
       "FluentAssertions >= 6.11.0",
       "Growwise1 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
@@ -14558,11 +14558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Нова папка (13)\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
       "projectName": "Growwise.Tests",
-      "projectPath": "D:\\Нова папка (13)\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
+      "projectPath": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Tests\\Growwise.Tests.csproj",
       "packagesPath": "C:\\Users\\slavi\\.nuget\\packages\\",
-      "outputPath": "D:\\Нова папка (13)\\growwisenew\\Growwise.Tests\\obj\\",
+      "outputPath": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -14584,14 +14584,14 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj": {
-              "projectPath": "D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj"
+            "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Data\\Growwise.Data.csproj": {
+              "projectPath": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Data\\Growwise.Data.csproj"
             },
-            "D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj": {
-              "projectPath": "D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj"
+            "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Service\\Growwise.Service.csproj": {
+              "projectPath": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Service\\Growwise.Service.csproj"
             },
-            "D:\\Нова папка (13)\\growwisenew\\Growwise1\\Growwise1.csproj": {
-              "projectPath": "D:\\Нова папка (13)\\growwisenew\\Growwise1\\Growwise1.csproj"
+            "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise1\\Growwise1.csproj": {
+              "projectPath": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise1\\Growwise1.csproj"
             }
           }
         }
@@ -14648,8 +14648,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Нова папка (13)\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
+      "message": "Unable to find project 'C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Service\\Growwise.Service.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Service\\Growwise.Service.csproj",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
       ]
@@ -14657,8 +14657,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Нова папка (13)\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
+      "message": "Unable to find project 'C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Data\\Growwise.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\slavi\\Downloads\\Нова папка\\growwisenew\\Growwise.Data\\Growwise.Data.csproj",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
       ]
